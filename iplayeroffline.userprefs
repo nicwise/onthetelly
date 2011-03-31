@@ -1,0 +1,44 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iplayeroffline/README.txt">
+    <Files>
+      <File FileName="iplayeroffline/HighlightViewController.xib.cs" Line="198" Column="27" />
+      <File FileName="iplayeroffline/OnlineProgramViewController.xib.cs" Line="204" Column="27" />
+      <File FileName="iplayeroffline/Database/RemoteProgramHelper.cs" Line="181" Column="45" />
+      <File FileName="iplayeroffline/DownloadViewController.xib.cs" Line="228" Column="28" />
+      <File FileName="iplayeroffline/ProgramDetailViewController.xib.cs" Line="99" Column="6" />
+      <File FileName="iplayeroffline/Net/CookieAwareWebClient.cs" Line="35" Column="6" />
+      <File FileName="iplayeroffline/ImageHelper.cs" Line="19" Column="28" />
+      <File FileName="iplayeroffline/Database/LocalProgramHelper.cs" Line="34" Column="27" />
+      <File FileName="iplayeroffline/README.txt" Line="62" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="OnTheTelly" expanded="True">
+            <Node name="Database" expanded="True" />
+            <Node name="Net" expanded="True" />
+            <Node name="DownloaderViewController.xib" expanded="True" />
+            <Node name="DownloadViewController.xib" expanded="True" />
+            <Node name="HighlightViewController.xib" expanded="True" />
+            <Node name="MainWindow.xib" expanded="True" />
+            <Node name="OnlineProgramViewController.xib" expanded="True" />
+            <Node name="ProgramDetailViewController.xib" expanded="True" />
+            <Node name="QueueViewController.xib" expanded="True" />
+            <Node name="README.txt" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

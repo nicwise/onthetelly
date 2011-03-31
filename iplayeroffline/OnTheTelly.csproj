@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E541170-EB66-48DC-B4AC-3EC837CD2177}</ProjectGuid>
+    <ProjectTypeGuids>{E613F3A2-FE9C-494F-B74E-F63BCB86FEA6};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BigTed.OnTheTelly</RootNamespace>
+    <MainNibFile>MainWindow.nib</MainNibFile>
+    <AssemblyName>iplayeroffline</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <BundleIdentifier>com.bigted.OnTheTele</BundleIdentifier>
+    <BundleVersion>3.5</BundleVersion>
+    <BundleDisplayName>On The Telly</BundleDisplayName>
+    <BundleIcon>icon.png</BundleIcon>
+    <ReleaseVersion>2.6</ReleaseVersion>
+    <MtouchMinimumOS>3.0</MtouchMinimumOS>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchI18n />
+    <MtouchUseLlvm>false</MtouchUseLlvm>
+    <MtouchArch>ARMv6</MtouchArch>
+    <MtouchUseThumb>false</MtouchUseThumb>
+    <MtouchUseSGen>false</MtouchUseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchI18n />
+    <MtouchUseLlvm>false</MtouchUseLlvm>
+    <MtouchArch>ARMv6</MtouchArch>
+    <MtouchUseThumb>false</MtouchUseThumb>
+    <MtouchUseSGen>false</MtouchUseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchI18n />
+    <MtouchUseLlvm>false</MtouchUseLlvm>
+    <MtouchArch>ARMv6</MtouchArch>
+    <MtouchUseThumb>false</MtouchUseThumb>
+    <MtouchUseSGen>false</MtouchUseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchI18n />
+    <MtouchUseLlvm>false</MtouchUseLlvm>
+    <MtouchArch>ARMv6</MtouchArch>
+    <MtouchUseThumb>false</MtouchUseThumb>
+    <MtouchUseSGen>false</MtouchUseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Distribution|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchI18n />
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>F2879560-E4A6-47CD-B95F-747EA8E5AF9F</CodesignProvision>
+    <MtouchUseLlvm>false</MtouchUseLlvm>
+    <MtouchArch>ARMv6</MtouchArch>
+    <MtouchUseThumb>false</MtouchUseThumb>
+    <MtouchUseSGen>false</MtouchUseSGen>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="MainWindow.xib.designer.cs">
+      <DependentUpon>MainWindow.xib</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramDetailViewController.xib.cs">
+      <DependentUpon>ProgramDetailViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramDetailViewController.xib.designer.cs">
+      <DependentUpon>ProgramDetailViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadViewController.xib.cs">
+      <DependentUpon>DownloadViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadViewController.xib.designer.cs">
+      <DependentUpon>DownloadViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Database\SqLite.cs" />
+    <Compile Include="Database\Database.cs" />
+    <Compile Include="QueueViewController.xib.cs">
+      <DependentUpon>QueueViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="QueueViewController.xib.designer.cs">
+      <DependentUpon>QueueViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Net\CookieAwareWebClient.cs" />
+    <Compile Include="Net\HttpUtility.cs" />
+    <Compile Include="Database\LocalProgramHelper.cs" />
+    <Compile Include="Database\RemoteProgramHelper.cs" />
+    <Compile Include="ImageHelper.cs" />
+    <Compile Include="IplayerConst.cs" />
+    <Compile Include="HighlightViewController.xib.cs">
+      <DependentUpon>HighlightViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="HighlightViewController.xib.designer.cs">
+      <DependentUpon>HighlightViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineProgramViewController.xib.cs">
+      <DependentUpon>OnlineProgramViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineProgramViewController.xib.designer.cs">
+      <DependentUpon>OnlineProgramViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineProgramDefinition.cs" />
+    <Compile Include="DownloaderViewController.xib.cs">
+      <DependentUpon>DownloaderViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="DownloaderViewController.xib.designer.cs">
+      <DependentUpon>DownloaderViewController.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Net\QueueDownloader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xib" />
+    <Page Include="ProgramDetailViewController.xib" />
+    <Page Include="DownloadViewController.xib" />
+    <Page Include="QueueViewController.xib" />
+    <Page Include="HighlightViewController.xib" />
+    <Page Include="OnlineProgramViewController.xib" />
+    <Page Include="DownloaderViewController.xib" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties InternalTargetFrameworkVersion="IPhone" />
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Content Include="Default.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\40-inbox.png" />
+    <Content Include="images\55-network.png" />
+    <Content Include="images\56-cloud.png" />
+    <Content Include="images\70-tv.png" />
+    <Content Include="images\downloadqueue.png" />
+    <Content Include="images\tv.png" />
+    <Content Include="images\28-star.png" />
+    <Content Include="images\09-chat2.png" />
+    <Content Include="images\24-gift.png" />
+    <Content Include="images\41-picture-frame.png" />
+    <Content Include="images\46-movie2.png" />
+    <Content Include="images\63-runner.png" />
+    <Content Include="images\65-note.png" />
+    <Content Include="images\81-dashboard.png" />
+    <Content Include="images\96-book.png" />
+    <Content Include="images\113-navigation.png" />
+    <Content Include="images\114-balloon.png" />
+    <Content Include="images\121-lanscape.png" />
+    <Content Include="images\124-bullhorn.png" />
+    <Content Include="images\12-eye.png" />
+    <Content Include="images\120-headphones.png" />
+    <Content Include="images\tempimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.png" />
+    <None Include="README.txt" />
+    <None Include="Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\" />
+    <Folder Include="images\" />
+    <Folder Include="Net\" />
+  </ItemGroup>
+</Project>

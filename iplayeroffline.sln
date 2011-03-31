@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheTelly", "iplayeroffline\OnTheTelly.csproj", "{8E541170-EB66-48DC-B4AC-3EC837CD2177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Distribution|iPhone = Distribution|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Debug|iPhone.Build.0 = Debug|iPhone
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Distribution|iPhone.ActiveCfg = Distribution|iPhone
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Distribution|iPhone.Build.0 = Distribution|iPhone
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Release|iPhone.ActiveCfg = Release|iPhone
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Release|iPhone.Build.0 = Release|iPhone
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{8E541170-EB66-48DC-B4AC-3EC837CD2177}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = iplayeroffline\OnTheTelly.csproj
+		version = 2.6
+	EndGlobalSection
+EndGlobal
